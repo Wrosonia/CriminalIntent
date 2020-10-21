@@ -4,6 +4,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import java.util.*
 
+//Crime
 @Entity
 data class Crime(@PrimaryKey val id: UUID  = UUID.randomUUID(),
                  var title: String = "",
